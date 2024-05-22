@@ -1,0 +1,29 @@
+header{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(166, 194, 246);
+    margin: auto 20px;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 8px;
+    padding-top: 10px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+}
+main{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 20px;
+}
+#mainLeft{
+    border-right: 2px solid rgb(115, 111, 111);
+}
+#mainRight{
+    margin-left: 20px;
+}
